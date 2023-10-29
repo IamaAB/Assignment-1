@@ -131,7 +131,7 @@ if __name__ == '__main__':
         elif choice == "7":
             customer.display_customer_details()
         elif choice == "8":
-            print("Goodbye!")
+            print("Bye Bye!")
             break
         else:
             print("Invalid choice. Please choose a valid option.")
