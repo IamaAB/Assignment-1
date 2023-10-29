@@ -127,7 +127,7 @@ if __name__ == '__main__':
             if customer.checking_account:
                 customer.checking_account.deduct_transaction_fee()
             else:
-                print("No checking account found.")
+                print("No checking account found")
         elif choice == "7":
             customer.display_customer_details()
         elif choice == "8":
